@@ -51,7 +51,7 @@
 	      (string     . "#a7bca4")))))
 
 (defmacro almost-mono-themes--variant-with-colors (variant &rest body)
-  "Execute `BODY' in a scope where the different colors for given `VARIANT' is bound."
+  "Execute BODY in a scope where the different colors for given VARIANT is bound."
   `(let* ((colors (or (cdr (assoc ,variant almost-mono-themes-colors))
 		      (error "No such theme variant")))
 	  (background (cdr (assoc 'background colors)))
@@ -153,11 +153,11 @@
 
 
 (defun almost-mono-themes--variant-name (variant)
-  "Create symbol for color theme variant `VARIANT'."
+  "Create symbol for color theme variant VARIANT."
   (intern (format "almost-mono-%s" (symbol-name variant))))
 
 (defmacro almost-mono-themes--define-theme (variant)
-  "Define a theme for the almost-mono variant `VARIANT'."
+  "Define a theme for the almost-mono variant VARIANT."
   (let ((name (almost-mono-themes--variant-name variant))
         (doc (format "almost mono theme (%s version)" variant)))
     `(progn
