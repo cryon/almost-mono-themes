@@ -40,6 +40,16 @@
 	      (success	  . "#00ff00")
 	      (string     . "#3c5e2b")))
 
+    (off-white . ((background . "#f7f5f5")
+		  (foreground . "#000000")
+		  (weak	      . "#888888")
+		  (weaker     . "#dddddd")
+		  (weakest    . "#efefef")
+		  (highlight  . "#fda50f")
+		  (warning    . "#ff0000")
+		  (success    . "#00ff00")
+		  (string     . "#3c5e2b")))
+
     (sepia . ((background . "#f4ecd8")
 	      (foreground . "#000000")
 	      (weak	  . "#888888")
