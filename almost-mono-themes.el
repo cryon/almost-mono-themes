@@ -81,6 +81,7 @@
       (minibuffer-prompt (:weight bold :foreground ,foreground))
       (isearch (:background ,weak :foreground ,foreground :bold t))
       (lazy-highlight (:background ,weaker :foreground ,foreground))
+      (link (:underline t))
 
       ;; mode line
       (mode-line (:box (:line-width -1 :color ,weaker)
