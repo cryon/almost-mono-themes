@@ -48,7 +48,27 @@
 	      (highlight  . "#fda50f")
 	      (warning	  . "#ff0000")
 	      (success	  . "#00ff00")
-	      (string     . "#a7bca4")))))
+	      (string     . "#a7bca4")))
+
+    (gray .  ((background . "#2b2b2b")
+	      (foreground . "#ffffff")
+	      (weak	  . "#aaaaaa")
+	      (weaker	  . "#666666")
+	      (weakest	  . "#222222")
+	      (highlight  . "#fda50f")
+	      (warning	  . "#ff0000")
+	      (success	  . "#00ff00")
+	      (string     . "#a7bca4")))
+
+    (cream . ((background . "#f0e5da")
+	      (foreground . "#000000")
+	      (weak	  . "#7d7165")
+	      (weaker	  . "#c4baaf")
+	      (weakest    . "#dbd0c5")
+	      (highlight  . "#fda50f")
+	      (warning	  . "#ff0000")
+	      (success	  . "#00ff00")
+	      (string     . "#3c5e2b")))))
 
 (defmacro almost-mono-themes--variant-with-colors (variant &rest body)
   "Execute BODY in a scope where the different colors for given VARIANT is bound."
