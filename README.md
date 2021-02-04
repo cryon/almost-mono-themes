@@ -18,6 +18,8 @@ If you have use-package setup on your system loading almost-mono-themes is as si
 (use-package almost-mono-themes
   :config
   ;; (load-theme 'almost-mono-black t)
+  ;; (load-theme 'almost-mono-gray t)
+  ;; (load-theme 'almost-mono-cream t)
   (load-theme 'almost-mono-white t))
 ```
 
@@ -31,4 +33,4 @@ You can set your <code>custom-theme-load-path</code> by adding this to your <cod
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ```
 
-You should now be able to load almost-mono-themes with <code>M-x load-theme RET almost-mono-{white, black}</code>!
+You should now be able to load almost-mono-themes with <code>M-x load-theme RET almost-mono-{black, gray, cream, white}</code>!
