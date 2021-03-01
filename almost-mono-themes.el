@@ -156,6 +156,11 @@
       (git-gutter:added (:background ,success :foreground ,success))
       (git-gutter:deleted (:background ,warning :foreground ,warning))
 
+      ;; diff hl
+      (diff-hl-change (:background ,highlight :foreground ,highlight))
+      (diff-hl-insert (:background ,success :foreground ,success))
+      (diff-hl-delete (:background ,warning :foreground ,warning))
+
       ;; hl line
       (hl-line (:background ,weakest))
       (highlight-current-line-face (:inherit hl-line))
