@@ -25,12 +25,16 @@ If you have use-package setup on your system loading almost-mono-themes is as si
 
 Manual installation
 -------------------
-If you prefer, you can install almost-mono-themes manually by downloading the elisp files in this repo  and place them somewhere in your <code>custom-theme-load-path</code>.
+If you prefer, you can install almost-mono-themes manually by downloading the elisp files in this repo and place them somewhere in your <code>load-path</code> and <code>custom-theme-load-path</code> (see example below).
 
-You can set your <code>custom-theme-load-path</code> by adding this to your <code>.emacs.d</code> or <code>.emacs.d/init.el</code>:
+You can set your paths by adding these lines to your <code>.emacs.d</code> or <code>.emacs.d/init.el</code>:
 
 ```lisp
+;; Put the main theme file almost-mono-themes.el in your load path
+(add-to-list 'load-path "~/.emacs.d/elisp")
+
+;; Put the induvidual theme files almost-mono-{black, white, etc.}-theme.el in your theme load path
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ```
 
-You should now be able to load almost-mono-themes with <code>M-x load-theme RET almost-mono-{black, gray, cream, white}</code>!
+You should now be able to load almost-mono-themes with <code>M-x load-theme RET almost-mono-{black, white, etc.} RET</code>!
