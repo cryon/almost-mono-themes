@@ -1,6 +1,6 @@
 ;;; almost-mono-themes.el --- Almost monochromatic color themes -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2019, 2020 John Olsson
+;; Copyright (C) 2019 - 2022 John Olsson
 
 ;; Author: John Olsson <john@cryon.se>
 ;; Maintainer: John Olsson <john@cryon.se>
