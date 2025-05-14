@@ -181,6 +181,9 @@
       (org-todo (:bold t :foreground ,highlight))
       (org-done (:bold t :foreground ,success))
       (org-headline-done (:bold t :foreground ,foreground))
+
+      ;; vertico
+      (vertico-current (:bold t :doreground ,foreground :background ,highlight))
       ))))
 
 
