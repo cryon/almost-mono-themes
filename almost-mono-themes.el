@@ -173,8 +173,14 @@
       (ido-vertical-match-face (:bold t :italic nil))
 
       ;; org mode
+      (org-drawer (:foreground ,weak))
+      (org-special-keyword (:bold t :foreground ,weak))
+      (org-property-value (:italic t :foreground ,weak))
       (org-table (:foreground ,weak))
 
+      (org-todo (:bold t :foreground ,highlight))
+      (org-done (:bold t :foreground ,success))
+      (org-headline-done (:bold t :foreground ,foreground))
       ))))
 
 
