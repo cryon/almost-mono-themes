@@ -182,8 +182,14 @@
       (org-done (:bold t :foreground ,success))
       (org-headline-done (:bold t :foreground ,foreground))
 
-      ;; vertico
-      (vertico-current (:bold t :doreground ,foreground :background ,highlight))
+      ;; various completion matches
+      (vertico-current (:bold t :foreground ,foreground :background ,highlight))
+
+      (completions-common-part (:bold t :underline t))
+      (orderless-match-face-0 (:bold t :underline t))
+      (orderless-match-face-1 (:bold t :underline t))
+      (orderless-match-face-2 (:bold t :underline t))
+      (orderless-match-face-3 (:bold t :underline t))
       ))))
 
 
