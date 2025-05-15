@@ -1,5 +1,6 @@
 Almost mono themes
 ==================
+[![MELPA](https://melpa.org/packages/almost-mono-themes-badge.svg)](https://melpa.org/#/almost-mono-themes)
 
 A collection of almost monochrome emacs themes in a couple of variants.
 
