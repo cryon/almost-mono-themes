@@ -173,6 +173,7 @@
       (ido-vertical-match-face (:bold t :italic nil))
 
       ;; org mode
+      (org-document-title (:foreground ,foreground))
       (org-drawer (:foreground ,weak))
       (org-special-keyword (:bold t :foreground ,weak))
       (org-property-value (:italic t :foreground ,weak))
