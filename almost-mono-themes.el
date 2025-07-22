@@ -182,6 +182,7 @@
       (org-todo (:bold t :foreground ,highlight))
       (org-done (:bold t :foreground ,success))
       (org-headline-done (:bold t :foreground ,foreground))
+      (org-hide (:foreground ,background))
 
       ;; various completion matches
       (vertico-current (:bold t :foreground ,foreground :background ,highlight))
