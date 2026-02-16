@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project has moved to https://codeberg.org/cryon/almost-mono-themes
+
 Almost mono themes
 ==================
 [![MELPA](https://melpa.org/packages/almost-mono-themes-badge.svg)](https://melpa.org/#/almost-mono-themes)
